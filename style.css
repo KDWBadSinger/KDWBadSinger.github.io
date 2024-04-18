@@ -1,0 +1,312 @@
+body
+{
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(41, 13, 63);
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ranked_DATA
+{
+    /* background-color: rgb(50, 176, 207); */
+    border: 2px solid black;
+    /* width: 400px; */
+    height: 150px;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+#ranked_win
+{
+    color: green;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_lose
+{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_winratio
+{
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#ranked_division
+{
+    color: rgb(0, 153, 255);
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    padding: 15px;
+}
+#currentChamp
+{
+    width: 400px;
+    height: 300px;
+    float: left;
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(95, 104, 187,0.9);
+    border-radius: 35px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cChampImg
+{   
+    border-radius: 50px;
+}
+#match
+{
+    width: 1350px;
+    height: 250px;
+    float: left;
+    padding: 15px;
+    border: 5px solid rgb(10, 10, 10);
+    background-color: rgb(116, 86, 160,0.5);
+}
+#result
+{
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+#championMatch
+{
+    width: 120px;
+    /* height: 60px; */
+    border-radius: 60px;
+}
+#championMatch img
+{
+    border-radius: 20px;
+}
+#matchTime
+{
+    width: 120px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+#matchSpell1
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchSpell2
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchRune1
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#matchRune2
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+#items
+{
+    width: 240px;
+    height: 60px;
+    float: left;
+}
+#matchStats
+{
+    width: 150px;
+    height: 90px;
+    float: left;
+    font-size: 20px;
+    color: white;
+}
+#blueTeam
+{
+    width: 150px;
+    height: 210px;
+    float: left;
+    background-color: rgb(37, 0, 247,0.5);
+    text-align: left;
+    padding: 10px;
+}
+#redTeam
+{
+    width: 150px;
+    height: 210px;
+    float: left;
+    background-color: rgb(247, 0, 0,0.5);
+    text-align: right;
+    padding: 10px;
+}
+#items img
+{
+    float: left;
+    padding: 4px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(51, 150, 153,0.5);
+}
+#matchHistory
+{
+    clear: both;
+}
+#firstColumn
+{
+    float: left;
+    height: 289px;
+}
+#champPart2
+{
+    width: 140px;
+    height: 289px;
+    float: left;
+}
+#summonerContainer2
+{
+    width: 410px;
+    height: 160px;
+    float: left;
+}
+#summonerIcon
+{
+    width: 160px;
+    height: 160px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+#summonerName
+{
+    width: 246px;
+    height: 160px;
+    float: left;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rankedIcon
+{
+    width: 160px;
+    height: 160px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rankedContainer
+{
+    width: 410px;
+    height: 160px;
+    float: left;
+    
+}
+#rankedInfo
+{
+    width: 250px;
+    height: 80px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rankedInfo2
+{
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+#rankedWinLose
+{
+    width: 170px;
+    height: 80px;
+    float: left;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#summonerInfoContainer
+{
+    width: 410px;
+    height: 340px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(40, 98, 223,0.5);
+    border: 2px solid wheat;
+    border-radius: 15px;
+}
+.horizontal-line{
+    width: 410px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+    float: left;
+}
+#emptyDiv
+{
+    width: 410px;
+    height: 3px;
+    float: left;
+}
+#newChampsStats
+{
+    width: 1200px;
+    height: 340px;
+    float: left;
+    padding: 15px;
+    background-color: rgb(40, 98, 223,0.5);
+    border: 2px solid wheat;
+    border-radius: 15px;
+}
+
+@keyframes verticalScroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 100%;
+    }
+  }
+  
+.background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+background: url('background3.png') repeat-y; /* 确保这里的图片路径是正确的 */
+background-size: cover; /* 根据需要，你可能要设置或修改这个值 */
+
+animation: verticalScroll 60s linear infinite; /* 调整时间以控制滚动速度 */
+}
+  
