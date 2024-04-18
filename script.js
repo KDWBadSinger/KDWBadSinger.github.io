@@ -99,7 +99,7 @@ async function data()
     // 4.16 Update
     let summonerInfoCode ="";
     summonerInfoCode += "<div id='summonerInfoContainer'><div id='summonerContainer2'><div id='summonerIcon'><img src='"+profile_icon_url+"' width=160 height=160></div><div id='summonerName'>"
-                    +gameName+"</br></br>Level:"+summoner_Level+"</div><div id='emptyDiv'></div><div class='horizontal-line'></div><div id='emptyDiv'></div><div id='rankedContainer'><div id ='rankedIcon'><img src='RankIcon/"+division_tier+".png' width=160 height=160></div><div id='rankedInfo'>"+division+"</div><div id='rankedInfo2'>"
+                    +gameName+"</br></br>Level:"+summoner_Level+"</div><div id='emptyDiv'></div><div class='horizontal-line'></div><div id='emptyDiv'></div><div id='rankedContainer'><div id ='rankedIcon'><img src='"+division_tier+".png' width=160 height=160></div><div id='rankedInfo'>"+division+"</div><div id='rankedInfo2'>"
                     +lp_ranked+" LP</div><div id='rankedWinLose'>"+summoner_wins+"W "+summoner_losses+"L</br>"+summoner_winratio+"Win Ratio</div>";
     document.getElementById
 
