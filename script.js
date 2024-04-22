@@ -1,4 +1,4 @@
-var API_key = "RGAPI-54b51f51-8f60-4f68-8522-97fd20de9721";
+var API_key = "RGAPI-31fd8081-0b49-4b96-a349-19327e6272fc";
 var server_url= "";
 const Regions = [
     'br1.api.riotgames.com',
